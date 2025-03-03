@@ -1,4 +1,5 @@
 # CSE150A-Project
+* Update: changed model to resemble the models we have discussed in lecture, with the setup and training stemming from the iterative nature of my agent/function.
 * In terms of PEAS, my agent is expected to return a correct probability result within a timely manner, which is what I am currently trying to work on. My agent is also expected to work within the confines (enviornment) of CSV files and reasonably-orderded datasets. It senses and collects this data using various "pandas" API methods within python and actuates on this data by creating and returning probabilites/CPTs using the formulas and strategies we learned in lecture.
 * My agent is goal-based insofar as it takes in a specified genre and attemps to find songs that are compatible with it given that song's popularity.
 * My model is set up using a music database found online and fits probabilistic modeling by providing educated estimates using inferred statistics.
